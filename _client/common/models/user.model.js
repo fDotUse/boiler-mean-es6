@@ -20,7 +20,7 @@ function UserModel($http) {
       }
     })
     .catch(function(err) {
-      console.log(`Users Api Err: ${err}`);
+      console.log('Users Api Err:', err);
       return err.data
     })
   }
@@ -33,7 +33,7 @@ function UserModel($http) {
       }
     })
     .catch(function(err) {
-      console.log(`Users Api Err: ${err}`);
+      console.log('Users Api Err:', err);
       return err.data
     })
   }
@@ -48,7 +48,7 @@ function UserModel($http) {
       return res.data
     })
     .catch(function(err) {
-      console.log(`Users Api Err: ${err}`);
+      console.log('Users Api Err:', err);
       return err.data
     })
   }
@@ -59,7 +59,7 @@ function UserModel($http) {
       return res.data
     })
     .catch(function(err) {
-      console.log(`Users Api Err: ${err}`);
+      console.log('Users Api Err:', err);
       return err.data
     })
   }
@@ -70,7 +70,7 @@ function UserModel($http) {
       return res.data
     })
     .catch(function(err) {
-      console.log(`Users Api Err: ${err}`);
+      console.log('Users Api Err:', err);
       return err.data
     });
   };
